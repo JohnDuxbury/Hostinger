@@ -1,13 +1,13 @@
 <?php
 error_reporting(E_ALL); @ini_set('display_errors', true);
 	$pages = array(
-		'0'	=> array('id' => '1', 'alias' => 'MyTravelLogs', 'file' => '1.php'),
+		'0'	=> array('id' => '1', 'alias' => 'Home', 'file' => '1.php'),
 		'1'	=> array('id' => '2', 'alias' => 'About-us', 'file' => '2.php'),
 		'2'	=> array('id' => '6', 'alias' => 'Contacts', 'file' => '6.php')
 	);
 	$forms = array(
 		'6'	=> array(
-			'2d11f46d' => Array( 'email' => '', 'subject' => 'Inquiry from the web page', 'sentMessage' => 'Form was sent.', 'fields' => array( array( 'fidx' => '0', 'name' => 'Name', 'type' => 'input', 'options' => '' ), array( 'fidx' => '1', 'name' => 'E-mail', 'type' => 'input', 'options' => '' ), array( 'fidx' => '2', 'name' => 'Message', 'type' => 'textarea', 'options' => '' ) ) )
+			'd3e434ae' => Array( 'email' => '', 'subject' => 'Inquiry from the web page', 'sentMessage' => 'Form was sent.', 'fields' => array( array( 'fidx' => '0', 'name' => 'Name', 'type' => 'input', 'options' => '' ), array( 'fidx' => '1', 'name' => 'E-mail', 'type' => 'input', 'options' => '' ), array( 'fidx' => '2', 'name' => 'Message', 'type' => 'textarea', 'options' => '' ) ) )
 		)
 	);
 	$langs = null;
@@ -19,7 +19,7 @@ error_reporting(E_ALL); @ini_set('display_errors', true);
 	$home_page = '1';
 	list($page_id, $lang) = parse_uri();
 	$user_key = "Y3SC4bRDNDojx79isxc=";
-	$user_hash = "b757ec769395b69e";
+	$user_hash = "41e3626a47ca2c41";
 	$comment_callback = "http://uk.zyro.com/comment_callback/";
 	$preview = false;
 	$mod_rewrite = true;
